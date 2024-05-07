@@ -42,8 +42,7 @@ predictions=model.predict(x_test)
 print("accuracy:",accuracy_score(y_test,predictions))
 print("Classification report:")
 print(classification_report(y_test,predictions))
-## Output:
-![SVM For Spam Mail Detection](sam.png)
+
 ```
 
 ## Output:
